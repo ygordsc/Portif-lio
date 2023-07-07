@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #1b183f;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+}
+
+.navi {
+    display: flex;
+    list-style: none;
+}
+
+.navi li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navi li:hover {
+    background-color: #151331;
+    cursor: pointer;
+}
+
+.navi a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+	background: linear-gradient(135deg, rgba(65,50,112,1) 20%, rgba(9,60,121,1) 68%, rgba(0,127,153,1) 100%);
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#sobremim {
+    height: calc(100vh - 60px);
+    padding-top: 60px;
+}
+
+h1 {
+	color: white;
+    font-size: 70px;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 17vw;
+}
+
+.intro-text {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.intro-text-left {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro-text-right li, .hist-text li {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    list-style-type: circle;
+}
+
+.line {
+    width: 50vw;
+    height: 1px;
+    background-color: #1b183f;
+    margin: 170px auto;
+}
+
+.lat-hud {
+    position: fixed;
+    top: 40vh;
+    right: 0;
+}
+
+.lat-hud ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.lat-hud img {
+    width: 70px;
+    filter: invert(1);
+    transition: 0.2s ease-in-out;
+}
+
+.lat-hud img:hover{
+    transform: scale(1.2);
+}
+
+#projetos{
+    height: 700px;
+    padding-top: 70px;
+}
+
+#projetos h2 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.projects img {
+    width: 20vw;
+    border: 5px solid #151331;
+}
+
+#historico {
+    height: 400px;
+    padding-top: 100px;
+}
+
+.hist-text {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    justify-content: center;
+}
+
+footer {
+    height: 180px;
+    background-color: #0f0d22;
+    display: flex;
+    align-items: center; 
+    gap: 150px;
+    padding-left: 30px;
+}
+
+#contatos a, h3, h4 {
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
